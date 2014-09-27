@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">beshry-ToDo</string>
+    <string name="app_name">Beshry-ToDoList</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="addButton">Add Task</string>
-    <string name="addTaskHint">Enter A To-Do Task</string>
-    <string name="title_activity_add_task">AddTaskActivity</string>
+    <string name="archives">Archives</string>
+    <string name="summary">Summary</string>
+    <string name="Email">Email</string>
+    <string name="title_activity_archive">Archives</string>
+    <string name="title_activity_archiver">Archiver</string>
+    <string name="title_activity_summary">SummaryActivity</string>
+    <string name="title_activity_mail">MailActivity</string>
+    <string name="title_activity_mail_selected_todo">MailSelectedTodoActivity</string>
+    <string name="title_activity_mail_selected_archive">MailSelectedArchiveActivity</string>
 
 </resources>

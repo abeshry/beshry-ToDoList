@@ -1,12 +1,20 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.beshry_todo.MainActivity" >
+    tools:context="ca.ualberta.cs.beshry_todolist.MainActivity" >
 
-    <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never"/>
-
+    <item android:id="@+id/archiveID" 
+       	android:title="@string/archives"
+       	android:showAsAction="always" >
+    </item>
+    
+    <item android:id="@+id/summaryID" 
+       	android:title="@string/summary"
+       	android:showAsAction="always" >
+    </item>
+    
+    <item android:id="@+id/mailID" 
+       	android:title="@string/Email"
+       	android:showAsAction="always" >
+    </item>
 </menu>
